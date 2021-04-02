@@ -1,0 +1,9 @@
+.wrapper {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+  background-color: coral;
+  display: inline-block;
+}

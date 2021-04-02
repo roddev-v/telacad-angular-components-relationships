@@ -1,0 +1,9 @@
+<h1>Alive heroes</h1>
+<app-superhero *ngFor="let superhero of superheroes"
+               (heroClick)="defeatHero($event)"
+               [hero]="superhero"></app-superhero>
+
+<br>
+
+<h1>Defeated heroes</h1>
+<app-defeated-superheroes [heroes]="defeatedSuperheroes"></app-defeated-superheroes>
